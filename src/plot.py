@@ -16,5 +16,6 @@ plt.plot(x, y)
 plt.title(f"{name} 的折线图")
 filename = f"{name}_折线图.png"
 
+plt.title("My Custom Plot")
 plt.savefig(filename)
 plt.show()
